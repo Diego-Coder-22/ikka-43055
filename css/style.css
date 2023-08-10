@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+    /* border:1px solid red;*/
+    margin: 0px;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* --------HEADER--------- */
+
+.header{
+display: flex;
+justify-content: space-between;
+padding: 1.5rem;
+}
+
+.logo{
+    width: 6rem;
+}
+
+.menu-list{
+    font-weight: 600;
+    font-size: .8rem;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap:2rem;
+}
+
+.menu-list li a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-li{
+    width: 2rem;
+}
+
+/* --------MAIN--------- */
+.section-top{
+    background-image: url("../asset/img/aceites.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-block: 10rem;
+}
+
+.section-top-text{
+    text-align: center;
+}
+
+.section-top-text h1 {
+    color: white;
+    font-size: 4rem;
+    text-shadow: 1px 1px 3px black;
+}
+
+.section-top-text h2 {
+    font-family: 'Handlee', cursive;
+    color: #ffbf91;
+    font-size: 3rem;
+    text-shadow: 1px 1px 3px black;
+}
+
+.section-content{
+    display: flex;
+    padding: 2rem;
+}
+.section-content-image{
+    display: flex;
+    align-items: center;
+}
+.section-content-image img{
+    width: 100%;
+}
+.section-content-text h3{
+    font-weight: 600;
+    font-size:1.5rem;
+    margin: 2rem;
+    margin-bottom: 1rem;
+}
+.section-content-text img{
+    margin-left: 6rem;
+}
+.section-content-text p{
+    padding: 2rem;
+}
+.section-content-text a{
+    color: white;
+    background-color: #ffbf91;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.grid{
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "item1 item2"
+    "item1 item3";
+    gap: 2rem;
+}
+.grid-item{
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem;
+}
+
+.grid-item h5{ 
+    color:white;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 3px black;
+    ;
+} 
+.grid-item1{
+    grid-area: item1;
+    background-image: url("../asset/img/MEN.jpg");
+    height: 400px;
+}
+.grid-item2{
+    grid-area: item2;
+    background-image: url("../asset/img/Naturales.jpg");
+}
+.grid-item3{
+    grid-area: item3;
+    background-image: url("../asset/img/-manos-nino.jpg");
+}
+
+.summer{
+    padding: 6rem;
+    padding-top: 0;
+}
+.titles{
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.cards{
+    display: flex;
+}
+.card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .7rem;
+}
+.card img{
+    max-width: 100%;
+}
+.card h3{
+    font-size:.8rem;
+}
+.card p{
+    font-family:Helvetica, sans-serif;
+    width: 75%;
+    text-align: center;
+}
+.card a{
+    background-color: #fba060;
+    padding: .75rem 1rem;
+    color: white; 
+    text-decoration: none; 
+    border-radius: 0.5rem;
+}
+
+.section-bottom{
+    background-image: url("../asset/img/campo-lavanda-2.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-block: 10rem;
+    margin-bottom: 4rem;
+}
+
+.section-bottom-text{
+    text-align: center;
+}
+
+.section-bottom-text h3 {
+    color: white;
+    font-size: 3rem;
+}
+
+.section-bottom-text h4 {
+    color: white;
+    font-size: 2rem;
+}
+/* --------FOOTER--------- */
+
+.footer{
+    padding: 4rem;
+    padding-top: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: coral; 
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    padding: 1.5rem;
+    padding-top: 0;
+}
+.footer-top{
+    display: flex;
+    padding-block: 2rem;
+}
+.footer-top > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.adress{
+    align-items: flex-end;
+    margin-top:4rem;
+}    
+.adress a{
+    color: white;
+
+}
+.footer-top h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+}
+.footer-bottom .icons{
+    display: flex;
+    gap:.5rem;
+
+}
+.footer-bottom .icons a{
+    width: 2rem;
+    color: white;
+}
+
+/* --------Conoce IKKA--------- */
+
+.about-top{
+    font-weight: 600;
+    font-size:1.6rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.about-us{
+    display: flex;
+    padding: 2rem;
+}
+.about-us h3{
+    font-weight: 600;
+    font-size:1.4rem;
+}
+.about-us p{
+    padding: 2rem;
+}
+.quienes-somos-img{
+    width: 500px;
+}
+
+.main-bootom{
+    background-color: #ffbf91;
+    color: white;
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+.main-bootom p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nosotros{
+    display: flex;
+    padding: 2rem;
+}
+.nosotros h3{
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size:1.4rem;
+}
+.nosotros p{
+    padding: 2rem;
+}
+.nosotros-img{
+    width: 500px;
+}
+
+
+
+/* --------PRODUCTOS--------- */
+
+
+.productos-title {
+    font-weight: 600;
+    font-size:1.6rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.productos-title p {
+    font-family: 'Handlee', cursive;
+    color: #000000;
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.productos{
+    padding: 8rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+
+.producto{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.producto img{
+    width: 300px;
+}
+.producto h3{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.producto a{
+    text-decoration: none;
+    background-color: #ffbf91 ;
+    color: white;
+    padding: 1rem;
+    margin: 2rem 4rem;
+    border-radius: .5rem;
+    }
+
+/* --------PLANTACIONES--------- */
+
+.plantaciones-top{
+    font-weight: 600;
+    font-size:1.6rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.plantaciones{
+    display: flex;
+    padding: 2rem;
+}
+.plantaciones h3, h4, h5{
+    font-weight: 600;
+    font-size:1.4rem;
+    margin-left: 2rem;
+}
+.plantaciones p{
+    padding: 2rem;
+}
+.plantaciones-img{
+    width: 500px;
+}
+
+.plantaciones-bottom{
+    display: flex;
+    padding: 2rem;
+}
+.plantaciones-bottom img{
+    width: 500px;
+}
+.plantaciones-bottom h6{
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 2rem;
+}
+.plantaciones-botom-text p{
+    padding: 2rem;
+}
+
+/* --------Contacto--------- */
+
+.contacto-top{
+    font-weight: 600;
+    font-size:1.6rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.contacto{
+    display: flex;
+    padding: 2rem;
+}
+.contacto p{
+    padding: 1rem;
+    margin-left: 1rem;
+}
+.form-button{
+    background-color: #ffbf91;
+    color: white;
+    font-size: 1rem;
+}
+
+
+/* --------Media Queries--------- */
+
+
+
+@media screen and (max-width: 1024px) {
+
+    /* --------INDEX--------- */
+    .section-content-image{
+        display: flex;
+        align-items: center;
+    }
+
+ /* --------PRODUCTOS--------- */
+    .productos{
+        padding: 0;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+/* --------INDEX--------- */
+    .header {
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        gap: 1rem;
+    }
+    .menu-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+    }
+    .section-top{
+        flex-direction: column;
+        padding-inline: 2rem;
+        background-size: cover;
+    }
+
+    .section-top-text h1 {
+        font-size: 3rem;
+    }
+    .section-top-text h2 {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    .section-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+    .section-content-text{
+        text-align: center;
+        gap: 1rem;
+        padding: 0;
+    }
+    .section-content-text a{
+        color: white;
+        background-color: #ffbf91;
+        font-size: 1rem;
+        text-decoration: none;
+        margin: 1rem;
+        padding: .5rem;
+        border-radius: 0.5rem;
+    }
+    .section-content-text img{
+        justify-content: space-between;
+        text-align: center;
+        margin: 0;
+        width: 65px;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .grid-item1 {
+        width: 100%;
+    }
+    .grid-item h5{ 
+        color:white;
+        font-size: 2rem;
+        text-align: start;
+        margin: 0;
+        text-shadow: 1px 1px 3px black;
+    }
+    .titles{
+        padding-bottom: 2rem;
+    }
+    .titles h2{
+        margin-top: 1rem;
+    }
+    .summer{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .cards{
+        display: flex;
+    }
+    .card{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .7rem;
+        margin-bottom: 1rem;
+    }
+    .card img{
+        max-width: 100%;
+    }
+    .card h3{
+        font-size:.8rem;
+        text-align: center;
+    }
+    .card p{
+        font-family:Helvetica, sans-serif;
+        width: 75%;
+        text-align: center;
+    }
+    .card a{
+        background-color: #fba060;
+        padding: .60rem .75rem;
+        color: white; 
+        font-size: .8rem;
+        text-decoration: none; 
+        border-radius: 0.5rem;
+    }
+
+    .section-bottom-text h3{
+            font-size: 2rem;
+    }
+    .section-bottom-text h4{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+}
+    .footer-top{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+/* --------PRODUCTOS--------- */
+
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+
+    .productos{
+        padding: 0;
+    }
+    .footer-top h4{
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+/* --------INDEX--------- */
+
+    .header, .menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+    .cards img{
+        width: 50%;
+    }
+
+/* --------PRODUCTOS--------- */
+
+    .productos{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+
+    .productos{
+        padding: 0;
+    }
+    .productos img{
+    width: 50%;
+    }
+}
+@media screen and (max-width: 320px) {
+
+/* --------INDEX--------- */
+
+    .header, .menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .section-top{
+        flex-direction: column;
+        padding-inline: 2rem;
+        background-size: cover;
+    }
+
+    .section-top-text h1 {
+        font-size: 1.5rem;
+    }
+    .section-top-text h2 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+    .section-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+    .section-content-text{
+        text-align: center;
+        gap: 1rem;
+        padding: 0;
+    }
+    .section-content-text a{
+        color: white;
+        background-color: #ffbf91;
+        font-size: .5rem;
+        text-decoration: none;
+        margin: 1rem;
+        padding: .5rem;
+        border-radius: 0.5rem;
+    }
+    .section-content-text img{
+        justify-content: space-between;
+        text-align: center;
+        margin: 0;
+        width: 65px;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .grid-item1 {
+        width: 100%;
+    }
+    .grid-item h5{ 
+        color:white;
+        font-size: 1rem;
+        text-align: start;
+        margin: 0;
+        text-shadow: 1px 1px 3px black;
+    }
+    .summer{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+    .section-bottom-text h3{
+            font-size: 2rem;
+    }
+    .section-bottom-text h4{
+        font-size: 1rem;
+        margin: 1rem 0;
+}
+    .footer-top{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer-top h4{
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+/* --------PRODUCTOS--------- */
+
+    .productos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .productos{
+        padding: 0;
+    }
+}
