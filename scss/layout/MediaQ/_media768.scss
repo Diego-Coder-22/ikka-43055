@@ -2,15 +2,40 @@
 
     /* --------INDEX--------- */
         .header {
-            display: flex;
-            @include align(column,center);
-            gap: 1rem;
+            .class-menu{
+                .checkbtn{
+                    display: block;
 
-            .menu-list {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 1rem;
+                    .menu-icon{
+                        display: block;
+                        position: fixed;
+                        top: 20px;
+                        right: 20px;
+                        cursor: pointer;
+                    }
+                }
+                .menu-list {
+                    display: block;
+                    position: fixed;
+                    top:70px;
+                    left:-100%;
+                    background: #fedea7;
+                    width: 100%;
+                    height: 100vh;
+                    right: 0;
+
+                    li{
+                        padding: 2rem;
+                        display: flex;
+                        justify-content:center;
+                        flex-direction: column;
+                        margin: 0;
+                    }
+                }
+                #check:checked ~ ul{
+                    left: 0;
+                    transition: all .25s;
+                }
             }
         }
         

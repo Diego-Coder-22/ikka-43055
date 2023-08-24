@@ -9,6 +9,20 @@
     }
 
     .class-menu{
+        #check{
+            display: none;
+        }
+        .checkbtn{
+            .menu-icon{
+                display: none;
+                
+                img{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 2px;
+                }
+            } 
+        }
 
         .menu-list{
             font-weight: 600;
