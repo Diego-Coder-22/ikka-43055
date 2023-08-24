@@ -101,6 +101,46 @@
         }
     }
 }
+    /* --------Conoce IKKA--------- */
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h3{
+        @include tamano(600,1.4rem);
+    }
+
+    p{
+        padding: 2rem;
+    }
+
+    .quienes-somos-img{
+        width: 80vw;
+        margin-top: 1rem;
+    }
+}
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+    h3{
+        margin-left: 1rem;
+        @include tamano(600,1.4rem);
+    }
+
+    p{
+        padding: 2rem;
+    }
+
+    .nosotros-img{
+        width: 80vw;
+        margin-top: 1rem;
+    }
+}
     /* --------Productos--------- */
 .productos-section-top{
     .productos{

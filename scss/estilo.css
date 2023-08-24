@@ -396,6 +396,38 @@
     width: 75%;
     text-align: center;
   }
+  /* --------Conoce IKKA--------- */
+  .about-us {
+    display: flex;
+    padding: 1rem;
+  }
+  .about-us h3 {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  .about-us p {
+    padding: 2rem;
+  }
+  .about-us .quienes-somos-img {
+    width: 300px;
+    margin-top: 1rem;
+  }
+  .nosotros {
+    display: flex;
+    padding: 1rem;
+  }
+  .nosotros h3 {
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  .nosotros p {
+    padding: 2rem;
+  }
+  .nosotros .nosotros-img {
+    width: 300px;
+    margin-top: 1rem;
+  }
   /* --------Productos--------- */
   .productos-section-top .productos {
     display: grid;
@@ -488,6 +520,41 @@
   .section-bottom .section-bottom-text h4 {
     font-size: 1.5rem;
     margin: 1rem 0;
+  }
+  /* --------Conoce IKKA--------- */
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .about-us h3 {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  .about-us p {
+    padding: 2rem;
+  }
+  .about-us .quienes-somos-img {
+    width: 80vw;
+    margin-top: 1rem;
+  }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .nosotros h3 {
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+  .nosotros p {
+    padding: 2rem;
+  }
+  .nosotros .nosotros-img {
+    width: 80vw;
+    margin-top: 1rem;
   }
   /* --------Productos--------- */
   .productos-section-top .productos {
@@ -595,6 +662,17 @@
   .section-bottom .section-bottom-text h4 {
     font-size: 1rem;
     margin: 1rem 0;
+  }
+  /* --------Conoce IKKA--------- */
+  .main-bootom {
+    background-color: #ffbf91;
+    color: white;
+    margin-bottom: 2rem;
+    padding: 1rem;
+  }
+  .main-bootom p {
+    font-size: 1rem;
+    text-align: center;
   }
   /* --------Productos--------- */
   .productos-section-top .productos-title {
