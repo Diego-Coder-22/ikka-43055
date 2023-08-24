@@ -34,13 +34,7 @@
             padding: 0;
 
             a{
-                color: white;
-                background-color: #ffbf91;
-                font-size: .5rem;
-                text-decoration: none;
-                margin: 1rem;
-                padding: .5rem;
-                border-radius: 0.5rem;
+                @extend %botones;
             }
             img{
                 justify-content: space-between;
@@ -114,8 +108,7 @@
     /* --------Footer--------- */
     .footer{
         .footer-top{
-            flex-direction: column;
-            align-items: center;
+            @include align(column,center);
             margin: 0;
 
             h4{
@@ -125,8 +118,7 @@
         }
 
         .footer-bottom{
-            flex-direction: column;
-            align-items: center;
+            @include align(column,center);
             gap: 2rem;
         }
     }

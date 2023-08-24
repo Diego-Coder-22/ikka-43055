@@ -24,8 +24,7 @@
             .card{
         
                 display: flex;
-                flex-direction: column;
-                align-items: center;
+                @include align(column,center);
                 gap: .7rem;
                 margin-bottom: 1rem;
 
@@ -37,18 +36,12 @@
                     text-align: center;
                 }
                 p{
-                    font-family:Helvetica, sans-serif;
+                    font-family:$mainFontSecundary;
                     width: 75%;
                     text-align: center;
                 }
                 a{
-                    background-color: #fba060;
-                    padding: .60rem .75rem;
-                    color: white; 
-                    font-size: .8rem;
-                    text-decoration: none; 
-                    border-radius: 0.5rem;
-                    text-align: center;
+                    @extend %botones;
                 }
             }
         }
