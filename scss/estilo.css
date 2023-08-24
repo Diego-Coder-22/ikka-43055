@@ -396,15 +396,6 @@
     width: 75%;
     text-align: center;
   }
-  .summer .cards .card a {
-    background-color: #fba060;
-    padding: 0.6rem 0.75rem;
-    color: white;
-    font-size: 0.8rem;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    text-align: center;
-  }
   /* --------Productos--------- */
   .productos-section-top .productos {
     display: grid;
@@ -453,15 +444,6 @@
     text-align: center;
     gap: 1rem;
     padding: 0;
-  }
-  .section-content .section-content-text a {
-    color: white;
-    background-color: #ffbf91;
-    font-size: 1rem;
-    text-decoration: none;
-    margin: 1rem;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
   }
   .section-content .section-content-text img {
     justify-content: space-between;
@@ -569,12 +551,11 @@
     padding: 0;
   }
   .section-content .section-content-text a {
-    color: white;
-    background-color: #ffbf91;
-    font-size: 0.5rem;
     text-decoration: none;
-    margin: 1rem;
-    padding: 0.5rem;
+    background-color: #ffbf91;
+    color: white;
+    padding: 1rem;
+    margin: 2rem 4rem;
     border-radius: 0.5rem;
   }
   .section-content .section-content-text img {
