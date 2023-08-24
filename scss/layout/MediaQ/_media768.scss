@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px) {
+
+    /* --------INDEX--------- */
+        .header {
+            display: flex;
+            flex-direction: column ;
+            align-items: center;
+            gap: 1rem;
+
+            .menu-list {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 1rem;
+            }
+        }
+        
+        .section-top{
+            flex-direction: column;
+            padding-inline: 2rem;
+            background-size: cover;
+
+            .section-top-text{
+                h1 {
+                    font-size: 3rem;
+                }
+
+                h2 {
+                    font-size: 2rem;
+                    margin: 1rem 0;
+                }
+            }
+        }
+    
+        .section-content{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+    
+            .section-content-text{
+                text-align: center;
+                gap: 1rem;
+                padding: 0;
+            
+                a{
+                color: white;
+                background-color: #ffbf91;
+                font-size: 1rem;
+                text-decoration: none;
+                margin: 1rem;
+                padding: .5rem;
+                border-radius: 0.5rem;
+            }
+                img{
+                justify-content: space-between;
+                text-align: center;
+                margin: 0;
+                width: 65px;
+            }
+            }
+        }
+
+        .grid{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            .grid-item1 {
+                width: 100%;
+
+                h5{ 
+                    color:white;
+                    font-size: 2rem;
+                    text-align: start;
+                    margin: 0;
+                    text-shadow: 1px 1px 3px black;
+                }
+            }
+        }
+
+        .summer{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+
+            .titles{
+                padding-bottom: 2rem;
+
+                h2{
+                    margin-top: 1rem;
+                }
+            }
+            .cards{
+                display: flex;
+                flex-direction: column;
+                gap:1rem;
+            }
+            }
+
+.section-bottom{
+    .section-bottom-text{
+        h3{
+            font-size: 2rem;
+        }
+        h4{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+        }
+    }
+}
+    /* --------Productos--------- */
+.productos-section-top{
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        padding: 0;
+
+        .productos img{
+            width: 50%;
+            }
+    }
+}
+    /* --------Footer--------- */
+.footer-top{
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+}
+.footer-bottom{
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+}
+}
