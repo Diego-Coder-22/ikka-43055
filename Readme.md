@@ -25,4 +25,4 @@
 -Adobe Illustrator
 
 
-*Este Proyecto forma parte del curso desarollo web dictado por CoderHouse
+*Este Proyecto forma parte del curso Desarollo Web dictado por CoderHouse
