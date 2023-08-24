@@ -42,13 +42,7 @@
                 padding: 0;
             
                 a{
-                color: white;
-                background-color: #ffbf91;
-                font-size: 1rem;
-                text-decoration: none;
-                margin: 1rem;
-                padding: .5rem;
-                border-radius: 0.5rem;
+                    @extend %botones;
             }
                 img{
                 justify-content: space-between;
