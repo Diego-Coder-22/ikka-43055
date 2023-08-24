@@ -11,23 +11,18 @@
 
 <h4>Tecnologias aplicadas</h4>
 
-:tw-1f527:
 -HTML
 -CSS
 -BOOTSTRAP
 -SASS
 
-:tw-2601:
 -GIT
 -GITHUB
 
-:tw-1f4bb:
 Visual Studio Code
 
-:tw-1f4f7:
 -Photoshop
 -Adobe Illustrator
 
-<br/>
 
 *Este Proyecto forma parte del curso desarollo web dictado por CoderHouse
