@@ -19,7 +19,7 @@
 -GIT
 -GITHUB
 
-Visual Studio Code
+-Visual Studio Code
 
 -Photoshop
 -Adobe Illustrator
