@@ -475,7 +475,7 @@
     right: 0;
   }
   .header .class-menu .menu-list li {
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
