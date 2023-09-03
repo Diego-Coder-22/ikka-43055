@@ -41,7 +41,13 @@
         display: flex;
         justify-content: space-between;
         padding-bottom: .5rem;
-
+        p{
+            font-size: .8rem;
+           a{
+            text-decoration: none;
+            color:white;
+           }
+        }
         .icons{
             display: flex;
             gap:.5rem;

@@ -37,6 +37,11 @@
             a{
                 @extend %botones;
                 }
+
+            a:hover{
+                background-color:#fd8f41;
+                transition: all .3s;
+            }
         }
     }
 }

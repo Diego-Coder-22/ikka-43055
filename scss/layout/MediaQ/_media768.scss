@@ -179,6 +179,52 @@
             }
     }
 }
+    /* --------Plantaciones--------- */
+
+     .plantaciones-top{
+        @include tamano(600,1.3rem);
+        text-align: center;
+        margin: 1rem;
+ }
+    .plantaciones{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    
+        h3{
+            @include tamano(600,1.4rem);
+        }
+    
+        p{
+            padding: 2rem;
+        }
+    
+        .plantaciones-img{
+            width: 80vw;
+            margin-top: 1rem;
+        }
+    }
+    .plantaciones-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    
+        h3{
+            margin-left: 1rem;
+            @include tamano(600,1.4rem);
+        }
+    
+        p{
+            padding: 2rem;
+        }
+    
+        .aceite-escencial-img{
+            width: 80vw;
+            margin-top: 1rem;
+        }
+    }
+
     /* --------Footer--------- */
 .footer-top{
     @include align(column,center);
@@ -188,4 +234,17 @@
     @include align(column,center);
             gap: 2rem;
 }
+
+ /* --------404--------- */
+.body-404{
+    .container-404{
+        .img-404{
+            width: 50%;
+        }
+    h1{
+    font-size: 12px;
+    }
+    }
+}
+
 }

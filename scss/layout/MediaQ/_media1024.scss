@@ -95,6 +95,44 @@
     }
 }
 
+/* --------Plantaciones--------- */
+
+.plantaciones{
+    display: flex;
+    padding: 1rem;
+
+    h3{
+        @include tamano(600,1.4rem);
+    }
+
+    p{
+        padding: 2rem;
+    }
+
+    .plantaciones-img{
+        width: 300px;
+        margin-top: 1rem;
+    }
+}
+.plantaciones-bottom{
+    display: flex;
+    padding: 1rem;
+
+    h3{
+        margin-left: 1rem;
+        @include tamano(600,1.4rem);
+    }
+
+    p{
+        padding: 2rem;
+    }
+
+    .aceite-escencial-img{
+        width: 300px;
+        margin-top: 1rem;
+    }
+}
+
     /* --------Footer--------- */
 .footer{
     .footer-top{

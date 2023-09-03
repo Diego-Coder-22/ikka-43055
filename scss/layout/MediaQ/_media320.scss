@@ -118,6 +118,22 @@
                 }
         }
     }
+
+     /* --------Plantaciones--------- */
+
+     .main-bootom{
+        background-color:$mainColor;
+        color: white;
+        margin-bottom: 2rem;
+        padding: 1rem;
+    
+        p{
+            font-size: 1rem;
+            text-align: center;
+        }
+    }
+
+
     /* --------Footer--------- */
     .footer{
         .footer-top{
@@ -135,5 +151,15 @@
             gap: 2rem;
         }
     }
-    
+    /* --------404--------- */
+.body-404{
+    .container-404{
+        .img-404{
+            width: 50%;
+        }
+    h1{
+    display: none;
+    }
+    }
+}
 }
