@@ -9,13 +9,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.productos-section-top .productos .producto a, .summer .cards .card a, .section-content .section-content-text a {
+.productos-section-top .productos .producto .producto-agregar:hover, .productos-section-top .productos .producto .producto-agregar, .productos-section-top .container-boton .boton-categoria.active, .productos-section-top .container-boton .boton-categoria, .summer .cards .card a, .section-content .section-content-text a {
   text-decoration: none;
   background-color: #ffbf91;
+  border: none;
   color: white;
   padding: 1rem;
   margin: 2rem 4rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 /** Relacionado al codigo **/
@@ -260,6 +262,18 @@
   font-size: 1rem;
   margin: 2rem;
 }
+.productos-section-top .container-boton {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8rem 0 8rem;
+}
+.productos-section-top .container-boton .boton-categoria {
+  background-color: #fd8f41;
+  width: 100%;
+}
+.productos-section-top .container-boton .boton-categoria:hover {
+  background-color: #ffbf91;
+}
 .productos-section-top .productos {
   padding: 8rem;
   display: grid;
@@ -280,8 +294,10 @@
   font-weight: 400;
   font-size: 1rem;
 }
-.productos-section-top .productos .producto a:hover {
+.productos-section-top .productos .producto .producto-agregar {
   background-color: #fd8f41;
+}
+.productos-section-top .productos .producto .producto-agregar:hover {
   transition: all 0.3s;
 }
 
@@ -341,6 +357,118 @@
   background-color: #ffbf91;
   color: white;
   font-size: 1rem;
+}
+
+.carrito-top {
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+.carrito-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.carrito-container .carrito-vacio {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-bottom: 14rem;
+}
+.carrito-container .carrito-productos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 6rem 3rem 6rem;
+}
+.carrito-container .carrito-productos .carrito-producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbe5d5;
+  border-radius: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+.carrito-container .carrito-productos .carrito-producto .carrito-producto-imagen {
+  width: 5rem;
+  border-radius: 1rem;
+}
+.carrito-container .carrito-productos .carrito-producto .carrito-producto-nombre small {
+  font-size: 0.75rem;
+}
+.carrito-container .carrito-productos .carrito-producto .carrito-producto-eliminar {
+  border: 0;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+.carrito-container .carrito-productos .carrito-producto .carrito-producto-eliminar:hover {
+  border: 0;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+}
+.carrito-container .carrito-acciones {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 6rem 3rem 6rem;
+}
+.carrito-container .carrito-acciones .carrito-acciones-vaciar {
+  border: 0;
+  background-color: #fbe5d5;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.carrito-container .carrito-acciones .carrito-acciones-vaciar:hover {
+  border: 0;
+  color: #fbe5d5;
+  background-color: #ffbf91;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.carrito-container .carrito-acciones .carrito-acciones-der {
+  display: flex;
+}
+.carrito-container .carrito-acciones .carrito-acciones-der .carrito-acciones-total {
+  display: flex;
+  background-color: #fbe5d5;
+  padding: 1rem;
+  text-transform: uppercase;
+  gap: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.carrito-container .carrito-acciones .carrito-acciones-der .carrito-acciones-comprar {
+  border: 0;
+  background-color: #ffbf91;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+}
+.carrito-container .carrito-acciones .carrito-acciones-der .carrito-acciones-comprar:hover {
+  border: 0;
+  background-color: #ffbf91;
+  color: #fbe5d5;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+}
+.carrito-container .carrito-comprado {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  padding-bottom: 14rem;
+}
+.carrito-container .disabled {
+  display: none;
 }
 
 .footer {
